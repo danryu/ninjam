@@ -11,5 +11,5 @@ WORKDIR /usr/local/ninjam
 # forward  error logs to docker log collector
 RUN ln -sf /proc/1/fd/1 ./ninjamserver.log
 
-EXPOSE 2049
+EXPOSE 20049
 ENTRYPOINT ["ninjamsrv", "server.cfg"]

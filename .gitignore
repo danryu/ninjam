@@ -1,1 +1,4 @@
 *.o
+release/
+ninjam/server/ninjamsrv
+ninjam/server/ninjam.tar.gz
